@@ -406,7 +406,7 @@ function LoadPlayerList() {
     var failurl = "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/" +
         "fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg";
 
-    var serverid = $.urlParam('serverid') || $.urlParam('server') || 1;
+    var serverid = $.urlParam('serverid') || $.urlParam('server') || 3;
 
     var playersurl = 'https://g2cf.metastruct.net/app/playerlist?server=' + serverid
 
